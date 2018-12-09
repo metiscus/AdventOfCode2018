@@ -4,6 +4,11 @@
 #include <vector>
 #include <cstdint>
 
+/*
+	Now note that I decided to just bump up the stack size significantly for this.
+	I'm certain that there were better ways to work around the overflow but I didn't feel clever.
+*/
+
 struct Node
 {
 	static int cnt;
